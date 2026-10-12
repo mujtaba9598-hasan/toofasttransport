@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QM-TF-001 | Mr. Bilal - Too Fast Transport Corporate Website Development</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A4; margin: 0; }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+      background: #E8E0D8; 
+      color: #1a1a1a; 
+      -webkit-print-color-adjust: exact; 
+      print-color-adjust: exact; 
+    }
+    .page { 
+      width: 210mm; 
+      min-height: 297mm; 
+      margin: 20px auto; 
+      background: #FFFFFF; 
+      box-shadow: 0 4px 40px rgba(0,0,0,0.12); 
+      position: relative; 
+      overflow: hidden; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-between; 
+    }
+    @media print {
+      body { background: #fff; }
+      .page { margin: 0; box-shadow: none; width: 210mm; height: 297mm; }
+      .print-btn { display: none; }
+    }
+
+    :root {
+      --qm-orange: #C25A1C;
+      --qm-orange-gradient: #E8920D;
+      --qm-dark: #1a1a1a;
+      --qm-sage: #8FA89A;
+      --qm-light: #F7F5F2;
+      --qm-border: #E5E1DC;
+      --qm-muted: #6B7280;
+    }
+
+    .top-stripe { height: 6px; background: linear-gradient(90deg, var(--qm-orange), var(--qm-orange-gradient), var(--qm-orange)); }
+    
+    .header { 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 24px 42px 18px; 
+    }
+    .header-left .company-name { 
+      font-family: 'Playfair Display', serif; 
+      font-size: 22px; 
+      font-weight: 700; 
+      color: var(--qm-orange); 
+      letter-spacing: 0.5px; 
+    }
+    .header-left .company-sub { 
+      font-size: 10.5px; 
+      color: var(--qm-muted); 
+      letter-spacing: 2px; 
+      text-transform: uppercase; 
+      margin-top: 3px; 
+      font-weight: 500;
+    }
+    .header-right { 
+      text-align: right; 
+      font-size: 11px; 
+      color: var(--qm-muted); 
+      line-height: 1.7; 
+    }
+    .header-right strong { color: var(--qm-dark); font-weight: 700; }
+
+    .quote-title-bar { 
+      background: var(--qm-orange); 
+      color: #fff; 
+      padding: 10px 42px; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+    }
+    .quote-title-bar h1 { 
+      font-family: 'Playfair Display', serif; 
+      font-size: 20px; 
+      font-weight: 700; 
+      letter-spacing: 2px; 
+    }
+    .quote-meta { 
+      font-size: 10.5px; 
+      text-align: right; 
+      line-height: 1.5; 
+      opacity: 0.95; 
+    }
+
+    .client-section { 
+      padding: 16px 42px 12px; 
+      display: flex; 
+      gap: 22px; 
+    }
+    .client-box { 
+      flex: 1; 
+      background: var(--qm-light); 
+      border-radius: 8px; 
+      padding: 12px 18px; 
+      border-left: 3.5px solid var(--qm-orange); 
+    }
+    .client-box .label { 
+      font-size: 9px; 
+      text-transform: uppercase; 
+      letter-spacing: 2px; 
+      color: var(--qm-orange); 
+      font-weight: 700; 
+      margin-bottom: 6px; 
+    }
+    .client-box p { 
+      font-size: 11px; 
+      line-height: 1.6; 
+      color: #333; 
+    }
+    .client-box p strong { font-weight: 600; color: var(--qm-dark); }
+
+    .services-section { padding: 8px 42px 0; }
+    .section-heading { 
+      font-size: 9.5px; 
+      text-transform: uppercase; 
+      letter-spacing: 2.5px; 
+      color: var(--qm-orange); 
+      font-weight: 700; 
+      margin-bottom: 10px; 
+      padding-bottom: 4px; 
+      border-bottom: 1.5px solid var(--qm-border); 
+    }
+
+    table { width: 100%; border-collapse: collapse; font-size: 10.5px; }
+    thead th { 
+      background: var(--qm-dark); 
+      color: #fff; 
+      padding: 8px 14px; 
+      text-align: left; 
+      font-weight: 600; 
+      font-size: 9.5px; 
+      text-transform: uppercase; 
+      letter-spacing: 1px; 
+    }
+    thead th:last-child { text-align: right; }
+    tbody td { padding: 9px 14px; border-bottom: 1px solid var(--qm-border); vertical-align: top; }
+    tbody tr:nth-child(even) { background: var(--qm-light); }
+    .item-title { font-weight: 700; color: var(--qm-dark); margin-bottom: 4px; font-size: 11.5px; }
+    
+    .item-bullets { 
+      list-style: none; 
+      padding: 0; 
+      margin: 4px 0 0; 
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      gap: 3px 18px; 
+    }
+    .item-bullets li { 
+      font-size: 9.5px; 
+      color: var(--qm-muted); 
+      line-height: 1.45; 
+    }
+    .item-bullets li strong {
+      color: var(--qm-dark);
+      font-weight: 600;
+    }
+    .item-bullets li::before { 
+      content: '\2713\00a0'; 
+      color: var(--qm-orange); 
+      font-weight: 700; 
+      margin-right: 3px; 
+      font-size: 9.5px; 
+    }
+    .item-price { text-align: right; font-weight: 700; white-space: nowrap; font-size: 11.5px; color: var(--qm-dark); }
+    .free-tag { 
+      display: inline-block; 
+      background: #DEF7EC; 
+      color: #065F46; 
+      font-size: 8.5px; 
+      font-weight: 700; 
+      padding: 3px 8px; 
+      border-radius: 10px; 
+      text-transform: uppercase; 
+      letter-spacing: 0.5px; 
+    }
+
+    .totals-section { 
+      padding: 0 42px; 
+      display: flex; 
+      justify-content: flex-end; 
+      margin-top: 14px; 
+    }
+    .totals-box { 
+      width: 300px; 
+      border: 1.5px solid var(--qm-border); 
+      border-radius: 8px; 
+      overflow: hidden; 
+    }
+    .totals-row { 
+      display: flex; 
+      justify-content: space-between; 
+      padding: 6.5px 18px; 
+      font-size: 10.5px; 
+      border-bottom: 1px solid var(--qm-border); 
+    }
+    .totals-row:last-child { border-bottom: none; }
+    .totals-row.total { 
+      background: var(--qm-orange); 
+      color: #fff; 
+      font-weight: 700; 
+      font-size: 12.5px; 
+    }
+    .totals-row.advance { 
+      background: #FEF3C7; 
+      color: #92400E; 
+      font-weight: 700; 
+      font-size: 11px; 
+    }
+
+    .payment-section { padding: 14px 42px 0; }
+    .payment-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .payment-box { 
+      background: var(--qm-light); 
+      border-radius: 8px; 
+      padding: 12px 16px; 
+    }
+    .payment-box .label { 
+      font-size: 9px; 
+      text-transform: uppercase; 
+      letter-spacing: 2px; 
+      color: var(--qm-orange); 
+      font-weight: 700; 
+      margin-bottom: 6px; 
+    }
+    .payment-box p { font-size: 10.5px; color: #333; line-height: 1.6; }
+
+    .terms-section { padding: 12px 42px 0; }
+    .terms-list { list-style: none; padding: 0; }
+    .terms-list li { 
+      font-size: 9.5px; 
+      color: #555; 
+      line-height: 1.55; 
+      padding: 2.5px 0 2.5px 14px; 
+      position: relative; 
+      border-bottom: 1px solid #f0ece8; 
+    }
+    .terms-list li::before { 
+      content: ''; 
+      position: absolute; 
+      left: 0; 
+      top: 8px; 
+      width: 5px; 
+      height: 5px; 
+      border-radius: 50%; 
+      background: var(--qm-orange); 
+      opacity: 0.7; 
+    }
+
+    .footer { 
+      border-top: 1.5px solid var(--qm-border); 
+      padding: 12px 42px; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      font-size: 9.5px; 
+      color: var(--qm-muted); 
+      margin-top: 10px; 
+    }
+    .footer a { color: var(--qm-orange); text-decoration: none; font-weight: 600; }
+    .bottom-stripe { height: 6px; background: linear-gradient(90deg, var(--qm-orange), var(--qm-orange-gradient), var(--qm-orange)); }
+
+    .print-btn { 
+      position: fixed; 
+      bottom: 30px; 
+      right: 30px; 
+      background: var(--qm-orange); 
+      color: #fff; 
+      border: none; 
+      padding: 12px 26px; 
+      border-radius: 8px; 
+      font-size: 14px; 
+      font-weight: 600; 
+      cursor: pointer; 
+      box-shadow: 0 4px 20px rgba(194,90,28,0.4); 
+      z-index: 100; 
+      transition: all 0.2s ease;
+    }
+    .print-btn:hover { background: #A84B16; }
+    @media print { .print-btn { display: none; } }
+  </style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
+
+<!-- A4 PAGE -->
+<div class="page">
+  <div>
+    <div class="top-stripe"></div>
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header-left">
+        <div>
+          <div class="company-name">Quartermasters FZC</div>
+          <div class="company-sub">Digital Solutions &amp; Web Engineering</div>
+        </div>
+      </div>
+      <div style="flex-shrink:0;">
+        <img src="quartermasters-logo.jpg" alt="Quartermasters FZC Logo" style="width:64px;height:64px;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'">
+      </div>
+      <div class="header-right">
+        <strong>Quartermasters - Fzc</strong><br>
+        Dubai, United Arab Emirates<br>
+        <a href="mailto:hello@quartermasters.me" style="color: var(--qm-orange); text-decoration: none;">hello@quartermasters.me</a>
+      </div>
+    </div>
+
+    <!-- TITLE BAR -->
+    <div class="quote-title-bar">
+      <h1>QUOTATION</h1>
+      <div class="quote-meta">
+        <strong style="font-size: 12px; font-weight: 700; display: inline-block; margin-bottom: 2px;">Quote #: QM-TF-001</strong><br>
+        Date: 11 October 2026<br>
+        Ref: Too Fast Transport Corporate Website Development
+      </div>
+    </div>
+
+    <!-- CLIENT SECTION -->
+    <div class="client-section">
+      <div class="client-box">
+        <div class="label">Quotation Prepared For</div>
+        <p>
+          <strong style="font-size: 13px; color: var(--qm-dark);">Mr. Bilal</strong><br>
+          <strong>Too Fast Transport</strong><br>
+          Contact: <strong>+971 50 853 5777</strong><br>
+          Transport, Heavy Machinery &amp; Logistics<br>
+          UAE (Dubai / Emirates)<br>
+          Website: toofasttransport.com
+        </p>
+      </div>
+      <div class="client-box">
+        <div class="label">Project Scope Summary</div>
+        <p>
+          <strong>Complete Modern Website with Animated Hero &amp; Specialized Services</strong><br>
+          Mobile-first corporate web development for Too Fast Transport, featuring a custom animated logo video effect in the hero section, floating WhatsApp &amp; Call buttons, and full service landing pages.
+        </p>
+      </div>
+    </div>
+
+    <!-- DELIVERABLES -->
+    <div class="services-section">
+      <div class="section-heading">Scope of Work &amp; Deliverables</div>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:5%;">#</th>
+            <th style="width:77%;">Description</th>
+            <th style="width:18%;">Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              <div class="item-title">Core Website Structure, Hero Video Effect &amp; Integrations</div>
+              <ul class="item-bullets">
+                <li><strong>Home Page Hero Video:</strong> Logo animation / exploding visual video effect (original logo preserved)</li>
+                <li><strong>About Us Page:</strong> Company profile, history &amp; mission (professionally written by us)</li>
+                <li><strong>Services Overview Page:</strong> Simple overview of all transport &amp; machinery services</li>
+                <li><strong>Contact Us Page:</strong> Interactive contact form, Google map location &amp; direct company details</li>
+                <li><strong>Floating WhatsApp Button:</strong> 1-click floating WhatsApp button on all pages</li>
+                <li><strong>Floating Call Button:</strong> 1-click floating call button &amp; click-to-call in contact form</li>
+                <li><strong>Mobile-First Design:</strong> 100% mobile responsive &amp; fast loading on phones and tablets</li>
+              </ul>
+            </td>
+            <td class="item-price"><span class="free-tag">Included</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <div class="item-title">Dedicated Specialized Service Pages</div>
+              <ul class="item-bullets">
+                <li><strong>JCB &amp; Earthmoving Equipment:</strong> Excavation, digging &amp; site works</li>
+                <li><strong>Trailers &amp; Small Pick-Up Services:</strong> Flexible haulage &amp; last-mile transport</li>
+                <li><strong>Cranes for Heavy Lifting:</strong> Heavy machinery lifting &amp; site positioning</li>
+                <li><strong>Material &amp; Goods Transportation:</strong> Commercial freight &amp; supplies</li>
+                <li><strong>Heavy &amp; Light Vehicle Transport:</strong> Commercial transport fleet solutions</li>
+                <li><strong>Movers &amp; Packers (2 to 3 Pages):</strong> Residential, corporate &amp; commercial relocation</li>
+              </ul>
+            </td>
+            <td class="item-price">AED 1,000.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- TOTALS -->
+    <div class="totals-section">
+      <div class="totals-box">
+        <div class="totals-row">
+          <span>Subtotal (Kul Qeemat)</span>
+          <span>AED 1,000.00</span>
+        </div>
+        <div class="totals-row">
+          <span>VAT / Tax (5%)</span>
+          <span>AED 50.00</span>
+        </div>
+        <div class="totals-row total">
+          <span>Total Quotation Amount</span>
+          <span>AED 1,050.00</span>
+        </div>
+        <div class="totals-row advance">
+          <span>50% Advance (To Kickoff)</span>
+          <span>AED 525.00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAYMENT DETAILS -->
+    <div class="payment-section">
+      <div class="section-heading" style="margin-top:2px;">Bank Transfer &amp; Payment Details</div>
+      <div class="payment-grid">
+        <div class="payment-box">
+          <div class="label">Bank Account Details</div>
+          <p>
+            <strong>Beneficiary:</strong> Quartermasters - Fzc<br>
+            <strong>Account Number:</strong> 019102196806<br>
+            <strong>Currency:</strong> AED account<br>
+            <strong>IBAN:</strong> AE680330000019102196806
+          </p>
+        </div>
+        <div class="payment-box">
+          <div class="label">Commercial Terms</div>
+          <p>
+            <strong>Payment Terms:</strong> 50% Advance (AED 525.00) / 50% on Delivery<br>
+            <strong>Quotation Validity:</strong> 15 Days from date of issue<br>
+            <strong>Revisions:</strong> Up to 2 prototype revisions + 1 post-delivery revision (within 1 month)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TERMS -->
+    <div class="terms-section">
+      <div class="section-heading">Terms &amp; Conditions</div>
+      <ul class="terms-list">
+        <li>Payment Milestone: 50% advance payment to start work; remaining 50% payable upon final delivery.</li>
+        <li>Quotation validity is 15 calendar days from date of issue.</li>
+        <li>An initial working sample/prototype will be presented for client review; any requested modifications will be incorporated (up to 2 revision rounds during the sample stage).</li>
+        <li>Following final project handover, 1 additional revision is included within 1 month of delivery.</li>
+        <li>Scope covers UI/UX design, mobile-first responsiveness, hero video effect integration, and testing.</li>
+        <li>1-Click floating WhatsApp &amp; Call buttons, click-to-call dialers, and contact forms are fully integrated.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div>
+    <div class="footer">
+      <div>
+        Thank you for your business. &mdash; <a href="mailto:hello@quartermasters.me">hello@quartermasters.me</a>
+      </div>
+      <div style="text-align: right; line-height: 1.6;">
+        <strong><a href="https://quartermasters.me" target="_blank" rel="noopener noreferrer">quartermasters.me</a></strong>
+      </div>
+    </div>
+    <div class="bottom-stripe"></div>
+  </div>
+</div>
+
+</body>
+</html>

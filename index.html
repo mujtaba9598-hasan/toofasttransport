@@ -197,7 +197,7 @@
       <!-- 2. Standalone Video Showcase (Completely Clear, Protected Against Downloads/Clicks) -->
       <div class="hero-video-showcase" oncontextmenu="return false;">
         <div class="video-shield" aria-hidden="true" oncontextmenu="return false;" ondragstart="return false;"></div>
-        <video class="hero-showcase-video" autoplay loop muted playsinline poster="assets/fleet/fleet-1.webp" controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture disableRemotePlayback oncontextmenu="return false;" ondragstart="return false;">
+        <video class="hero-showcase-video" autoplay loop muted playsinline controlsList="nodownload nofullscreen noremoteplayback" disablePictureInPicture disableRemotePlayback oncontextmenu="return false;" ondragstart="return false;">
           <source src="assets/video/hero_vid.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -344,18 +344,22 @@
           </div>
         </article>
 
-        <!-- Service 3: Trailers & Pickups -->
+        <!-- Service 3: FlatBed Trailer Services -->
         <article class="service-card">
-          <div class="service-card-media">
-            <img src="assets/services/trailers-pickup.webp" alt="Trailers and Small Pick-Up Services">
+          <div class="service-card-media lightbox-trigger" data-gallery="flatbed" role="button" tabindex="0" aria-label="Open FlatBed Trailer Gallery (30 Photos)">
+            <img src="assets/services/flatbed-trailer-large-steel-pipes-volvo-front-09.jpeg" alt="FlatBed Trailer Services">
             <span class="service-card-tag">Haulage</span>
-            <a href="service-trailers-pickup.html" class="service-card-specs-badge" title="View Full Specifications">
+            <span class="card-gallery-indicator">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              30 Photos
+            </span>
+            <a href="service-trailers-pickup.html" class="service-card-specs-badge" title="View Full Specifications" onclick="event.stopPropagation();">
               Specs
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
             </a>
           </div>
           <div class="service-card-body">
-            <h3 class="service-card-title">Trailers and Small Pick-Up Services</h3>
+            <h3 class="service-card-title">FlatBed Trailer Services</h3>
             <p class="service-card-desc">
               Rapid response transport fleet featuring versatile 3 ton to 10 ton pickups and 40 foot flatbed trailers for prompt regional freight dispatch.
             </p>
@@ -364,7 +368,7 @@
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                 Book via Call
               </a>
-              <a href="https://wa.me/971508535777?text=Hello%20Too%20Fast%20Transport,%20I%20would%20like%20to%20book%20Trailers%20and%20Small%20Pick-Up%20Services." target="_blank" rel="noopener noreferrer" class="service-btn-whatsapp">
+              <a href="https://wa.me/971508535777?text=Hello%20Too%20Fast%20Transport,%20I%20would%20like%20to%20book%20FlatBed%20Trailer%20Services." target="_blank" rel="noopener noreferrer" class="service-btn-whatsapp">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.274.072.376-.043.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
                 Book via WhatsApp
               </a>
@@ -821,6 +825,42 @@
     <a href="tel:+971508535777" class="floating-btn floating-call" title="Call Us Direct">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
     </a>
+  </div>
+
+  <!-- Fleet Photo Gallery Lightbox Modal -->
+  <div id="fleetLightbox" class="fleet-lightbox" role="dialog" aria-modal="true" aria-label="Fleet Photo Gallery" style="display: none;">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-dialog" role="document">
+      <div class="lightbox-header">
+        <div class="lightbox-meta">
+          <span class="lightbox-tag">Fleet Gallery</span>
+          <h4 class="lightbox-title" id="lightboxTitle">FlatBed Trailer Services</h4>
+          <span class="lightbox-counter" id="lightboxCounter">1 / 30</span>
+        </div>
+        <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close Gallery (Esc)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="lightbox-stage" id="lightboxStage">
+        <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous Photo (Left Arrow)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <div class="lightbox-media-wrap">
+          <img src="" alt="Too Fast Transport FlatBed Trailer" class="lightbox-img" id="lightboxImg">
+        </div>
+
+        <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next Photo (Right Arrow)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+
+      <div class="lightbox-footer">
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+        <span class="lightbox-hint">Use Keyboard ← / → or Swipe on Mobile</span>
+      </div>
+    </div>
   </div>
 
   <script src="js/main.js"></script>

@@ -121,21 +121,45 @@ Any new agent picking up this workspace can access the complete history, reasoni
   - Dual hotline CTA desk (+971 50 853 5777 & +971 55 455 1928).
 - **Search Engine Registration**: Added `service-cranes-200-ton.html` to [`sitemap.xml`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/sitemap.xml).
 
+### I. Heavy Excavators & Earth Breaking Division (Session 3 - 2026-10-20)
+- **Client Voice Note Scope**: "Yeh sir excavator hai, excavator department alag se hoti hai samjho. For the excavation and uh earth breaking. Matlab koi cheez break karne ke liye hoti hai na, like koi deewar todni hai, kuch bhi iss qisam ka wo karna hota hai, yeh us ke kaam aati hain cheezein."
+- **Raw Asset Ingestion**: Moved 8 raw files from Downloads to [`Client Shared Images/2026-10-20_Excavators/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/Client%20Shared%20Images/2026-10-20_Excavators/). Deduplication identified 4 unique operational images.
+- **Card Main Hero Image**: Specified image `WhatsApp Image 2026-10-19 at 5.53.51 PM (7).jpeg` converted to [`assets/services/excavator-earth-breaking.webp`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/services/excavator-earth-breaking.webp).
+- **WebP Gallery**: Generated 4 unique WebP gallery photos in [`assets/gallery/excavators/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/gallery/excavators/) (`excavator-01.webp` through `excavator-04.webp`).
+- **Master Manifest**: Complete record in [`docs/content/excavators_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/excavators_images_record.md).
+- **Multi-Gallery Fleet Lightbox**: Upgraded `js/main.js` to support `excavators` (4 items) alongside `flatbed`, `lowbed`, and `cranes`.
+- **New Card on `index.html` & `services.html`**: "Heavy Excavators & Earth Breaking" with 4-photo indicator, Specs badge, and Call/WhatsApp CTAs.
+- **Dedicated Service Landing Page**: Built [`service-excavator-earth-breaking.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-excavator-earth-breaking.html) featuring:
+  - Trust stats patti (Rock Breakers | Wall Demolition | Certified Crew | Rapid Mobilization).
+  - 6 excavator application cards (Hydraulic Rock Breaking, Concrete Wall Demolition, Deep Basement Excavation, Utility Trenching, Spoil Loading, Site Levelling).
+  - 5-tier technical specification matrix.
+  - 4 curated live operations photo cards directly wired to `#fleetLightbox`.
+  - 6 authentic B2B contractor FAQs (breaker vs bucket quick coupler, certified operators, controlled wall demolition, mobilization lead time).
+  - Dual hotline CTA desk (+971 50 853 5777 & +971 55 455 1928).
+- **Crane Page Alignment**: Updated [`service-cranes-heavy-lifting.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-cranes-heavy-lifting.html) to consistently feature Up to 200 Tons capacity across hero, matrix table, and a cross-link callout banner to the 200-ton showcase page.
+- **Search Engine Registration**: Added `service-excavator-earth-breaking.html` to [`sitemap.xml`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/sitemap.xml).
+
 ---
 
 ## 4. Key File Manifest
 
 | File Path | Description / Changes Made |
 | :--- | :--- |
-| [`index.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/index.html) | Added Cranes Up to 200 Tons card, Lowbed card, navigation dropdowns updated. |
-| [`services.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/services.html) | Added Cranes Up to 200 Tons card, Lowbed card, navigation dropdowns updated. |
+| [`index.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/index.html) | Added Heavy Excavators & Earth Breaking card, 200-Ton Cranes card, Lowbed card. |
+| [`services.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/services.html) | Added Heavy Excavators & Earth Breaking card, updated Cranes capacity to 200T. |
+| [`service-excavator-earth-breaking.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-excavator-earth-breaking.html) | Dedicated high-intent hydraulic excavator & earth breaking landing page. |
+| [`service-cranes-heavy-lifting.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-cranes-heavy-lifting.html) | Updated to include Up to 200 Tons capacity, matrix table, and cross-link banner. |
 | [`service-cranes-200-ton.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-cranes-200-ton.html) | Dedicated high-intent 200-ton crane heavy lifting landing page. |
 | [`service-lowbed-trailer.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-lowbed-trailer.html) | Dedicated high-intent 150-ton heavy machinery shifting landing page. |
 | [`service-trailers-pickup.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-trailers-pickup.html) | High-intent flatbed page, cross-linked to other heavy services. |
-| [`js/main.js`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/js/main.js) | Multi-gallery lightbox supporting flatbed (30), lowbed (52), and cranes (12). |
-| [`sitemap.xml`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/sitemap.xml) | 19 URLs indexed with priorities and lastmod. |
+| [`js/main.js`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/js/main.js) | Multi-gallery lightbox supporting flatbed (30), lowbed (52), cranes (12), and excavators (4). |
+| [`sitemap.xml`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/sitemap.xml) | 20 URLs indexed with priorities and lastmod. |
+| [`docs/content/excavators_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/excavators_images_record.md) | Complete inventory and SHA256 record of all 8 excavator files. |
 | [`docs/content/cranes_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/cranes_images_record.md) | Complete inventory and SHA256 record of all 12 crane photos and 5 videos. |
 | [`docs/content/lowbed_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/lowbed_images_record.md) | Complete inventory and SHA256 record of all 52 lowbed photos. |
+| [`assets/services/excavator-earth-breaking.webp`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/services/excavator-earth-breaking.webp) | Primary card image converted from WhatsApp Image (7). |
+| [`assets/gallery/excavators/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/gallery/excavators/) | 4 optimized WebP fleet photos for interactive lightbox. |
+| [`Client Shared Images/2026-10-20_Excavators/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/Client%20Shared%20Images/2026-10-20_Excavators/) | All 8 raw source images preserved safely in project repo. |
 | [`assets/services/cranes-upto-200-tons.webp`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/services/cranes-upto-200-tons.webp) | Primary card image converted from WhatsApp Image 2026-10-18 at 2.12.24 PM.jpeg. |
 | [`assets/gallery/cranes/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/gallery/cranes/) | 12 optimized WebP fleet photos for interactive lightbox. |
 | [`Client Shared Images/2026-10-18_Cranes/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/Client%20Shared%20Images/2026-10-18_Cranes/) | All 17 raw source items (12 images, 5 MP4 videos) preserved safely. |

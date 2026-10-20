@@ -530,10 +530,30 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     ];
 
+    const excavatorsGallery = [
+      {
+        src: 'assets/gallery/excavators/excavator-01.webp',
+        caption: 'Heavy Hydraulic Excavator with Rock Breaker Chisel - Earth Breaking & Demolition UAE'
+      },
+      {
+        src: 'assets/gallery/excavators/excavator-02.webp',
+        caption: 'Deep Foundation Excavator Breaking Ground & Structural Walls on Construction Site'
+      },
+      {
+        src: 'assets/gallery/excavators/excavator-03.webp',
+        caption: 'Heavy Hydraulic Excavator Loading Excavated Soil & Rock Rubble into Dump Trucks'
+      },
+      {
+        src: 'assets/gallery/excavators/excavator-04.webp',
+        caption: 'Heavy Demolition Excavator Breaking Down Concrete Walls and Solid Rock Formations'
+      }
+    ];
+
     const galleries = {
       flatbed: flatbedGallery,
       lowbed: lowbedGallery,
-      cranes: cranesGallery
+      cranes: cranesGallery,
+      excavators: excavatorsGallery
     };
 
     let activeGalleryKey = 'flatbed';
@@ -586,6 +606,8 @@ document.addEventListener('DOMContentLoaded', () => {
           lightboxTitle.textContent = 'Lowbed Trailers for Heavy Machinery (Up to 150 Tons)';
         } else if (activeGalleryKey === 'cranes') {
           lightboxTitle.textContent = 'Cranes Up to 200 Tons (Heavy Lifting & High Elevations)';
+        } else if (activeGalleryKey === 'excavators') {
+          lightboxTitle.textContent = 'Excavators & Earth Breaking (Demolition & Rock Breaking)';
         } else {
           lightboxTitle.textContent = 'FlatBed Trailer Services';
         }

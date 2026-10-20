@@ -79,12 +79,24 @@ Professional residential villa, apartment, and commercial office relocation serv
 5. **Palm Jumeirah (`movers-palm-jumeirah.html`):** Ultra-luxury Frond villa and Crescent penthouse relocations, marble floor shielding, fine art custom crating, and white-glove concierge moving.
 6. **Downtown Dubai & Burj Khalifa District (`movers-downtown-dubai.html`):** Iconic high-rise penthouses, corporate headquarters, Emaar Community Management clearance, and freight lift scheduling.
 
+### 4.9 FlatBed Trailer Services (`service-trailers-pickup.html`)
+High-capacity 40-foot heavy-duty flatbed trailers and pipe haulers engineered for steel casing pipes, crane lattice booms, piling rig kelly bars, and precast concrete slabs across all 7 Emirates. Supported by an interactive 30-photo verified operations gallery.
+
+### 4.10 Lowbed Trailers for Heavy Machinery - Up to 150 Tons (`service-lowbed-trailer.html`)
+Specialized multi-axle lowbed transport solutions engineered for heavy machinery shifting up to 150 tons within the UAE. Equipped with heavy prime movers, hydraulic folding ramps, and certified rigging crews for tracked excavators, continuous flight auger (CFA) piling rigs, bulldozers, and crawler crane components. Supported by an interactive 52-photo field operations gallery.
+
+### 4.11 Cranes Up to 200 Tons (`service-cranes-200-ton.html`)
+Flagship all-terrain mobile cranes engineered for up to 200 tons capacity and extreme high-elevation hoisting onto building rooftops, hotel cooling towers, industrial plants, and infrastructure sites across the UAE. Provided with certified crane operators, qualified riggers, and comprehensive lift study planning. Supported by an interactive 12-photo field operations gallery.
+
+### 4.12 Heavy Excavators & Earth Breaking (`service-excavator-earth-breaking.html`)
+Dedicated heavy excavator fleet equipped with high-impact hydraulic rock breakers, demolition chisels, and heavy excavation buckets. Engineered for mass earthmoving, solid bedrock fracturing, concrete boundary wall demolition, deep basement pits, and utility trenching across the UAE. Supported by an interactive 4-photo field operations gallery.
+
 ---
 
 ## 5. UAE SEO Keyword Mapping
 
 - **Primary Brand:** Too Fast Transport LLC, Too Fast Transport UAE
-- **Machinery:** JCB rental Dubai, earthmoving equipment hire Sharjah, backhoe loader hire UAE, mobile crane rental UAE, heavy lifting crane hire Abu Dhabi
-- **Haulage & Transport:** flatbed trailer transport UAE, 3 ton pickup rental Sharjah, 7 ton truck transport Dubai, commercial freight logistics UAE, construction material transport UAE
+- **Machinery:** JCB rental Dubai, earthmoving equipment hire Sharjah, backhoe loader hire UAE, mobile crane rental UAE, heavy lifting crane hire Abu Dhabi, 200 ton crane rental UAE, excavator with rock breaker UAE, concrete wall demolition excavator UAE
+- **Haulage & Transport:** flatbed trailer transport UAE, 40ft pipe hauler rental UAE, lowbed trailer for heavy machinery UAE, 150 ton lowbed rental UAE, 3 ton pickup rental Sharjah, 7 ton truck transport Dubai, commercial freight logistics UAE, construction material transport UAE
 - **Relocation:** movers and packers UAE, villa moving services Dubai, corporate office relocation Sharjah, house shifting Abu Dhabi
 - **Community Relocation:** movers in Dubai Marina, movers in The Springs Dubai, movers in The Meadows, villa movers Arabian Ranches, movers in Palm Jumeirah, movers in Downtown Dubai, Burj Khalifa district movers

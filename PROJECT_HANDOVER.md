@@ -16,8 +16,14 @@ Any new agent picking up this workspace can access the complete history, reasoni
   - **Brain Directory Path**: `C:\Users\Mujtaba Hasan\.gemini\antigravity-cli\brain\b4b074d2-a155-4887-a7d1-e065c04c1f88`
   - **Compact Conversation Transcript**: `C:\Users\Mujtaba Hasan\.gemini\antigravity-cli\brain\b4b074d2-a155-4887-a7d1-e065c04c1f88\.system_generated\logs\transcript.jsonl`
   - **Full Conversation Transcript**: `C:\Users\Mujtaba Hasan\.gemini\antigravity-cli\brain\b4b074d2-a155-4887-a7d1-e065c04c1f88\.system_generated\logs\transcript_full.jsonl`
-  - **Automated Verification Script**: `C:\Users\Mujtaba Hasan\.gemini\antigravity-cli\brain\b4b074d2-a155-4887-a7d1-e065c04c1f88\scratch\verify_lowbed_feature.js`
-  - **Asset Manifest & Records**: [`docs/content/lowbed_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/lowbed_images_record.md)
+  - **Automated Verification Scripts**:
+    - Lowbed 150T Suite: `C:\Users\Mujtaba Hasan\.gemini\antigravity-cli\brain\b4b074d2-a155-4887-a7d1-e065c04c1f88\scratch\verify_lowbed_feature.js`
+    - Cranes 200T Suite: `C:\Users\Mujtaba Hasan\.gemini\antigravity-cli\brain\b4b074d2-a155-4887-a7d1-e065c04c1f88\scratch\verify_cranes_puppeteer.js`
+    - Excavators & Earth Breaking Suite: `C:\Users\Mujtaba Hasan\.gemini\antigravity-cli\brain\b4b074d2-a155-4887-a7d1-e065c04c1f88\scratch\verify_excavators_feature.js`
+  - **Asset Manifests & Master Records**:
+    - Lowbed 150T Fleet: [`docs/content/lowbed_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/lowbed_images_record.md)
+    - Cranes 200T Fleet: [`docs/content/cranes_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/cranes_images_record.md)
+    - Excavators & Breaking Fleet: [`docs/content/excavators_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/excavators_images_record.md)
 - **Session 2 (2026-10-14)**:
   - **Conversation ID**: `64ae5d62-bc3b-4244-a7d2-bc06620eabe4`
   - **Brain Directory Path**: `C:\Users\Mujtaba Hasan\.gemini\antigravity-cli\brain\64ae5d62-bc3b-4244-a7d2-bc06620eabe4`

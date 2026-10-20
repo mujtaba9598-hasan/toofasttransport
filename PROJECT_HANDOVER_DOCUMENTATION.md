@@ -31,7 +31,7 @@ Too Fast Transport LLC was established in **2010** in Sharjah, UAE. As 2026 come
 The company provides machinery **WITH certified operators and trained licensed drivers**. Original company records explicitly state: *"trained drivers, skilled machine operators, and a responsive logistics team"*. This is a core service scope and must be preserved.
 
 ### Strict Typography & Punctuation Rules
-- **ZERO Em Dashes (`—`) and ZERO En Dashes (`–`)**: All dashes must be standard hyphens (`-`).
+- **ZERO Em Dashes (`-`) and ZERO En Dashes (`-`)**: All dashes must be standard hyphens (`-`).
 - **NO Python Generator Scripts**: All edits must be made directly and surgically into HTML, CSS, and JS files using native editor tools.
 - **Languages**: English and Roman Urdu only for conversation. Strictly NO Hindi and NO Perso-Arabic script in console/terminal output.
 
@@ -69,27 +69,30 @@ The visual identity is strictly **Industrial Deep Carbon Black & Metallic Gold**
 
 ---
 
-## 4. Complete Project Sitemap & Page Inventory (17 HTML Files)
+## 4. Complete Project Sitemap & Page Inventory (20 HTML Files)
 
 | # | File Name | Route / Purpose | Key Features |
 |---|---|---|---|
 | 1 | `index.html` | Corporate Homepage | Hero video, 16-yr stats patti, service cards, why choose us, 4-step process, 3 black & gold dispatch cards |
 | 2 | `about.html` | About Company | 16-yr big gold heading, fleet breakdown, skyscraper foundation SEO, 4 photorealistic commercial cards |
-| 3 | `services.html` | Services Directory | Master index of all 7 commercial plant & freight services |
+| 3 | `services.html` | Services Directory | Master index of all commercial plant, earthmoving, lifting & freight services |
 | 4 | `service-jcb-earthmoving.html` | JCB & Earthmoving | JCB 3DX/4DX backhoes, tracked excavators, trenching, leveling |
-| 5 | `service-cranes-heavy-lifting.html` | Mobile Cranes & Lifting | 25T to 100T+ mobile cranes, boom trucks, rigging, safety certifications |
-| 6 | `service-trailers-pickup.html` | Trailers & Pickups | 3T, 7T, 10T pickups, 40ft flatbeds, curtain-siders, port cargo |
-| 7 | `service-heavy-light-transport.html` | Heavy & Light Transport | Dedicated fleet transport across all 7 Emirates |
-| 8 | `service-material-goods-transport.html` | Material Transportation | Aggregates, steel rebar, MEP materials, commercial cargo |
-| 9 | `service-hydraulic-tilt-trailer.html` | Hydraulic Tilt Trailers | Slide bed recovery trailers, low ground clearance plant movers |
-| 10 | `service-movers-packers.html` | Movers & Packers Hub | Residential & office shifting, moving team matrix, hero.jpg |
-| 11 | `movers-dubai-marina.html` | Area: Dubai Marina | High-rise apartment shifting, service elevator bookings, parking access |
-| 12 | `movers-the-springs.html` | Area: The Springs | Gated townhouse relocation, Emaar community move permits |
-| 13 | `movers-the-meadows.html` | Area: The Meadows | Luxury independent villa shifting, garden/patio furniture |
-| 14 | `movers-arabian-ranches.html` | Area: Arabian Ranches | Full coverage for Arabian Ranches 1, 2, and 3, large villas |
-| 15 | `movers-palm-jumeirah.html` | Area: Palm Jumeirah | Luxury beachfront villa & penthouse relocation, Nakheel security |
-| 16 | `movers-downtown-dubai.html` | Area: Downtown Dubai | Luxury high-rise moves near Burj Khalifa, strict loading dock rules |
-| 17 | `contact.html` | Contact & Fleet Dispatch | Screenshot-inspired card layout, Al Saja'a address, full booking form, Google Map directions |
+| 5 | `service-excavator-earth-breaking.html` | Heavy Excavators & Earth Breaking | Hydraulic rock breaker chisels, concrete wall demolition, deep earthworks, 4-photo gallery |
+| 6 | `service-cranes-heavy-lifting.html` | Mobile Cranes & Lifting | Up to 200T mobile cranes, boom trucks, rigging, safety certifications |
+| 7 | `service-cranes-200-ton.html` | Cranes Up to 200 Tons | Dedicated 200T all-terrain mobile crane high-elevation hoisting, 12-photo gallery |
+| 8 | `service-trailers-pickup.html` | FlatBed Trailers & Pickups | 40ft pipe haulers, 3T to 10T pickups, 30-photo verified operations gallery |
+| 9 | `service-lowbed-trailer.html` | Lowbed Heavy Trailers | 150-ton multi-axle heavy machinery shifting, 52-photo interactive gallery |
+| 10 | `service-heavy-light-transport.html` | Heavy & Light Transport | Dedicated fleet transport across all 7 Emirates |
+| 11 | `service-material-goods-transport.html` | Material Transportation | Aggregates, steel rebar, MEP materials, commercial cargo |
+| 12 | `service-hydraulic-tilt-trailer.html` | Hydraulic Tilt Trailers | Slide bed recovery trailers, low ground clearance plant movers |
+| 13 | `service-movers-packers.html` | Movers & Packers Hub | Residential & office shifting, moving team matrix, hero.jpg |
+| 14 | `movers-dubai-marina.html` | Area: Dubai Marina | High-rise apartment shifting, service elevator bookings, parking access |
+| 15 | `movers-the-springs.html` | Area: The Springs | Gated townhouse relocation, Emaar community move permits |
+| 16 | `movers-the-meadows.html` | Area: The Meadows | Luxury independent villa shifting, garden/patio furniture |
+| 17 | `movers-arabian-ranches.html` | Area: Arabian Ranches | Full coverage for Arabian Ranches 1, 2, and 3, large villas |
+| 18 | `movers-palm-jumeirah.html` | Area: Palm Jumeirah | Luxury beachfront villa & penthouse relocation, Nakheel security |
+| 19 | `movers-downtown-dubai.html` | Area: Downtown Dubai | Luxury high-rise moves near Burj Khalifa, strict loading dock rules |
+| 20 | `contact.html` | Contact & Fleet Dispatch | Screenshot-inspired card layout, Al Saja'a address, full booking form, Google Map directions |
 
 ---
 
@@ -172,7 +175,7 @@ The visual identity is strictly **Industrial Deep Carbon Black & Metallic Gold**
 If the user asks for new tasks or modifications:
 1. **Read this file first** to understand the exact structure, tone, and brand constraints.
 2. **Never introduce blue, cyan, or pastel colors** into the main interface cards. The theme is strictly deep carbon black (`#151515` / `#080808`) and metallic gold (`#D4AF37` / `#F5D061`).
-3. **Always use hyphens (`-`)**, never em dashes (`—`) or en dashes (`–`).
+3. **Always use hyphens (`-`)**, never em dashes (`-`) or en dashes (`-`).
 4. **Al Saja'a, Sharjah** is the physical yard base. The coordinates are `25.317862, 55.630871`.
 5. **Always refer to 16 Years of experience**, never 15 years.
 6. **To test on local network**, run:

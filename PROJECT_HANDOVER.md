@@ -104,19 +104,41 @@ Any new agent picking up this workspace can access the complete history, reasoni
   - Dual hotline CTA desk (+971 50 853 5777 & +971 55 455 1928).
 - **Automated Verification**: Validated with Puppeteer test suite (`scratch/verify_lowbed_feature.js`).
 
+### H. Cranes Up to 200 Tons - Heavy Lifting & High Places (Session 3 - 2026-10-20)
+- **Client Voice Note Scope**: "Sir yeh crane ki already udhar aik photo lagi hui hai, crane. For lifting heavy material or high places, up places. Iss ko crane kaha jata hai sir. Yeh 200 ton capacity tak hamare paas hain already. Crane iss ko bolte hain sir."
+- **Raw Asset Ingestion**: Moved 17 raw files (12 photos, 5 MP4 operational videos) from Downloads to [`Client Shared Images/2026-10-18_Cranes/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/Client%20Shared%20Images/2026-10-18_Cranes/).
+- **WebP Conversion**: Converted all 12 unique photos to WebP in [`assets/gallery/cranes/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/gallery/cranes/) (`crane-01.webp` through `crane-12.webp`).
+- **Card Main Hero Image**: Specified image `WhatsApp Image 2026-10-18 at 2.12.24 PM.jpeg` converted to [`assets/services/cranes-upto-200-tons.webp`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/services/cranes-upto-200-tons.webp).
+- **Master Manifest**: Complete file record in [`docs/content/cranes_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/cranes_images_record.md).
+- **Multi-Gallery Fleet Lightbox**: Upgraded `js/main.js` controller to support `cranes` (12 items) alongside `flatbed` (30) and `lowbed` (52).
+- **New Card on `index.html` & `services.html`**: "Cranes Up to 200 Tons", 12-photo indicator, Specs badge (`service-cranes-200-ton.html`), and Call/WhatsApp CTAs.
+- **Dedicated Service Landing Page**: Built [`service-cranes-200-ton.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-cranes-200-ton.html) featuring:
+  - 200-ton trust bar / stats patti (Up to 200 Tons | High Elevations & Reach | Certified Crew).
+  - 6 lifting capability cards (High-Rise HVAC & Chillers, Structural Steel Erection, Heavy Industrial Generators, Telecom & Antenna Masts, Bridge Beams, Plant Maintenance).
+  - 4-tier specification table (50-Ton All-Terrain, 100-Ton Heavy Mobile, 160-Ton High-Reach, 200-Ton Flagship Mobile).
+  - 6 curated live operations photo cards directly wired to `#fleetLightbox` with `data-gallery="cranes"`.
+  - 6 authentic B2B FAQs answering lift plans, ground bearing, wind limits, permits, certified riggers, and night lifting.
+  - Dual hotline CTA desk (+971 50 853 5777 & +971 55 455 1928).
+- **Search Engine Registration**: Added `service-cranes-200-ton.html` to [`sitemap.xml`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/sitemap.xml).
+
 ---
 
 ## 4. Key File Manifest
 
 | File Path | Description / Changes Made |
 | :--- | :--- |
-| [`index.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/index.html) | Card 4 added for Lowbed Trailers (150 Tons), navigation dropdown updated. |
-| [`services.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/services.html) | Card 4 added for Lowbed Trailers, navigation dropdown updated. |
+| [`index.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/index.html) | Added Cranes Up to 200 Tons card, Lowbed card, navigation dropdowns updated. |
+| [`services.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/services.html) | Added Cranes Up to 200 Tons card, Lowbed card, navigation dropdowns updated. |
+| [`service-cranes-200-ton.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-cranes-200-ton.html) | Dedicated high-intent 200-ton crane heavy lifting landing page. |
 | [`service-lowbed-trailer.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-lowbed-trailer.html) | Dedicated high-intent 150-ton heavy machinery shifting landing page. |
-| [`service-trailers-pickup.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-trailers-pickup.html) | High-intent flatbed page, cross-linked to lowbed trailer service. |
-| [`js/main.js`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/js/main.js) | Multi-gallery lightbox supporting flatbed (30) and lowbed (52). |
-| [`sitemap.xml`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/sitemap.xml) | 18 URLs indexed with priorities and lastmod. |
+| [`service-trailers-pickup.html`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/service-trailers-pickup.html) | High-intent flatbed page, cross-linked to other heavy services. |
+| [`js/main.js`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/js/main.js) | Multi-gallery lightbox supporting flatbed (30), lowbed (52), and cranes (12). |
+| [`sitemap.xml`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/sitemap.xml) | 19 URLs indexed with priorities and lastmod. |
+| [`docs/content/cranes_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/cranes_images_record.md) | Complete inventory and SHA256 record of all 12 crane photos and 5 videos. |
 | [`docs/content/lowbed_images_record.md`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/docs/content/lowbed_images_record.md) | Complete inventory and SHA256 record of all 52 lowbed photos. |
+| [`assets/services/cranes-upto-200-tons.webp`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/services/cranes-upto-200-tons.webp) | Primary card image converted from WhatsApp Image 2026-10-18 at 2.12.24 PM.jpeg. |
+| [`assets/gallery/cranes/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/gallery/cranes/) | 12 optimized WebP fleet photos for interactive lightbox. |
+| [`Client Shared Images/2026-10-18_Cranes/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/Client%20Shared%20Images/2026-10-18_Cranes/) | All 17 raw source items (12 images, 5 MP4 videos) preserved safely. |
 | [`assets/services/lowbed-trailer-heavy-machinery.webp`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/services/lowbed-trailer-heavy-machinery.webp) | Primary card image converted from WhatsApp Image (26). |
 | [`assets/gallery/lowbed/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/assets/gallery/lowbed/) | 52 optimized WebP fleet photos for interactive lightbox. |
 | [`Client Shared Images/2026-10-16_Lowbed-Trailers/`](file:///C:/Users/Mujtaba%20Hasan/Downloads/TooFastTransport/Client%20Shared%20Images/2026-10-16_Lowbed-Trailers/) | All 59 raw source images preserved safely in project repo. |

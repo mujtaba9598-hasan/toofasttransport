@@ -479,9 +479,61 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     ];
 
+    const cranesGallery = [
+      {
+        src: 'assets/gallery/cranes/crane-01.webp',
+        caption: '200-Ton Capacity All-Terrain Mobile Crane - Heavy Material & High Elevation Lifting UAE'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-02.webp',
+        caption: 'Heavy Telescopic Mobile Crane Rigged for High Elevation Industrial Hoisting'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-03.webp',
+        caption: 'Telescopic Boom Extension for High-Rise Mechanical and HVAC Chiller Placement'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-04.webp',
+        caption: 'Heavy Mobile Crane Rigging for Structural Steel and Precast Foundation Lifting'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-05.webp',
+        caption: 'All-Terrain 200-Ton Crane Mobilization with Extended Outriggers and Ground Mats'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-06.webp',
+        caption: 'High-Altitude Material Lifting at Active Civil Construction Site in Dubai'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-07.webp',
+        caption: 'Heavy Machinery Offloading and Precision Placement by Certified Rigging Crew'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-08.webp',
+        caption: 'Telescopic Crane Jib Assembly for Extended Reach Infrastructure Hoisting'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-09.webp',
+        caption: 'High-Tonnage Industrial Plant Lifting - Certified Crane Operator and Banksman'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-10.webp',
+        caption: 'Heavy Mobile Crane Dual-Lift Planning and Rigging Deployment in Sharjah Yard'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-11.webp',
+        caption: 'Structural Crane Boom Operations for High-Altitude Mechanical Installations'
+      },
+      {
+        src: 'assets/gallery/cranes/crane-12.webp',
+        caption: '200-Ton Crane Heavy Rigging Solution Serving Civil Contractors Across All 7 Emirates'
+      }
+    ];
+
     const galleries = {
       flatbed: flatbedGallery,
-      lowbed: lowbedGallery
+      lowbed: lowbedGallery,
+      cranes: cranesGallery
     };
 
     let activeGalleryKey = 'flatbed';
@@ -530,9 +582,13 @@ document.addEventListener('DOMContentLoaded', () => {
       activeGalleryKey = galleryKey;
       isLightboxOpen = true;
       if (lightboxTitle) {
-        lightboxTitle.textContent = activeGalleryKey === 'lowbed'
-          ? 'Lowbed Trailers for Heavy Machinery (Up to 150 Tons)'
-          : 'FlatBed Trailer Services';
+        if (activeGalleryKey === 'lowbed') {
+          lightboxTitle.textContent = 'Lowbed Trailers for Heavy Machinery (Up to 150 Tons)';
+        } else if (activeGalleryKey === 'cranes') {
+          lightboxTitle.textContent = 'Cranes Up to 200 Tons (Heavy Lifting & High Elevations)';
+        } else {
+          lightboxTitle.textContent = 'FlatBed Trailer Services';
+        }
       }
       displayImage(idx);
       fleetLightbox.style.display = 'flex';

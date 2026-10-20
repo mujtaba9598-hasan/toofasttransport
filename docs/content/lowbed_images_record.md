@@ -2,18 +2,18 @@
 
 - **Source Raw Directory**: `Client Shared Images/2026-10-16_Lowbed-Trailers/`
 - **WebP Gallery Directory**: `assets/gallery/lowbed/`
-- **Main Card Image**: `assets/services/lowbed-trailer-heavy-machinery.webp` (Source: `WhatsApp Image 2026-10-16 at 12.45.24 AM (26).jpeg`)
+- **Main Card Image**: `assets/services/lowbed-trailer-heavy-machinery.webp` (Source: `WhatsApp Image 2026-10-16 at 12.45.23 AM (3).jpeg`)
 - **Total Raw Photos**: 59
 - **Total Unique Converted WebP Photos**: 52
 - **Client Machinery Specification**: Heavy machinery shifting up to 150 tons within UAE.
 
 | # | WebP Destination | Source Raw File | Resolution | File Size | SHA-256 Hash Prefix | Role / Content |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | `lowbed-01.webp` | `WhatsApp Image 2026-10-16 at 12.45.24 AM (26).jpeg` | 1280x576 | 107 KB | `3697312d6a8b` | Card Main & Gallery Hero |
+| 1 | `lowbed-01.webp` | `WhatsApp Image 2026-10-16 at 12.45.23 AM (3).jpeg` | 1280x719 | 143 KB | `d78533502994` | Card Main & Gallery Hero |
 | 2 | `lowbed-02.webp` | `WhatsApp Image 2026-10-16 at 12.45.11 AM.jpeg` | 1280x719 | 111 KB | `5de42a996e32` | Gallery Slide |
 | 3 | `lowbed-03.webp` | `WhatsApp Image 2026-10-16 at 12.45.16 AM.jpeg` | 1280x960 | 147 KB | `20c5867fc6ae` | Gallery Slide |
 | 4 | `lowbed-04.webp` | `WhatsApp Image 2026-10-16 at 12.45.23 AM (2).jpeg` | 1280x719 | 81 KB | `3692c74d3acd` | Gallery Slide |
-| 5 | `lowbed-05.webp` | `WhatsApp Image 2026-10-16 at 12.45.23 AM (3).jpeg` | 1280x719 | 143 KB | `d78533502994` | Gallery Slide |
+| 5 | `lowbed-05.webp` | `WhatsApp Image 2026-10-16 at 12.45.24 AM (26).jpeg` | 1280x576 | 107 KB | `3697312d6a8b` | Gallery Slide |
 | 6 | `lowbed-06.webp` | `WhatsApp Image 2026-10-16 at 12.45.23 AM (4).jpeg` | 1280x720 | 114 KB | `23356d0519a7` | Gallery Slide |
 | 7 | `lowbed-07.webp` | `WhatsApp Image 2026-10-16 at 12.45.23 AM (5).jpeg` | 1280x720 | 175 KB | `9b3996603395` | Gallery Slide |
 | 8 | `lowbed-08.webp` | `WhatsApp Image 2026-10-16 at 12.45.23 AM (6).jpeg` | 1280x719 | 105 KB | `7e7c07b2b081` | Gallery Slide |

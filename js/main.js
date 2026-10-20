@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         src: 'assets/gallery/lowbed/lowbed-05.webp',
-        caption: 'Heavy Duty Caterpillar Bulldozer Staged for Highway Transit in Sharjah'
+        caption: 'Heavy Lowbed Carrier - Multi-Axle Industrial Plant Transport in UAE'
       },
       {
         src: 'assets/gallery/lowbed/lowbed-06.webp',
